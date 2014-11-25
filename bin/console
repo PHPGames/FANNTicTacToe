@@ -1,0 +1,8 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__ . '/../vendor/autoload.php';
+
+$app = new \PHPGames\ANNTicTacToe('Human VS. Machine ANN Powered', 'V1');
+$app->run();
+

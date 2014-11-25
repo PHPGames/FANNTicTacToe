@@ -1,0 +1,32 @@
+{
+    "name": "phpgames/ann_tic_tac_toe",
+    "description": "Demo application of ANN with PHP and libfann",
+    "type": "Library",
+    "keywords": ["fann", "ANN", "phpgames"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduardo Gulias",
+            "email": "eduardomgulias@gmail.com"
+        },
+        {
+            "name": "Ariel Ferrandini",
+            "email": "arielferrandini@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~5.5",
+        "phpgames/board-helper": "~1.0",
+        "phpgames/hal-helper": "~1.0",
+        "symfony/console": "~2.5",
+        "monolog/monolog": "~1.0"
+    },
+    "require-dev" : {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPGames\\": "src/PHPGames"
+        }
+    }
+}
