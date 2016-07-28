@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "php": "~5.5",
+        "php": ">=5.5",
         "phpgames/board-helper": "~1.0",
         "phpgames/hal-helper": "~1.0",
         "symfony/console": "~2.5",
