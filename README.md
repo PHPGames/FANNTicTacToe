@@ -3,9 +3,14 @@ ANN Tic Tac Toe in a Symfony Console App
 
 Project for *ANN Tic Tac Toe in a Symfony Console App* SymfonyCon Madrid 2014
 
+## Requirements
+
+* PHP >= 5.5
+* PHP FANN extension (install: https://github.com/bukka/php-fann#installation)
+
 ## How to install
 
-clone the repository an run 
+Clone the repository an run: 
 
 ```shell
 composer install
